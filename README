@@ -1,7 +1,10 @@
-This package holds everything needed to automate ADFR
-AMECovDock - Automated Modeling Engine for covelent docking using ADFR
+**AMECovDock - Automated Modeling Engine for covelent docking using ADFR**
 
-follows https://ccsb.scripps.edu/adfr/tutorial-covalent/
+This package holds everything needed to automate ADFR
+
+In a covalently bound ligand, there are three atoms shared between the receptor and the ligand. It includes a common anchor atom in the receptor that connects with the ligand’s atoms. You can see both connected atoms in the PDBQT files of both the receptor and the ligand as well.
+
+For with a receptor using  ADFR [1-2]  follows https://ccsb.scripps.edu/adfr/tutorial-covalent/
 
 ===============
 CURRENTLY SUPPORTED WARHEAD REACTIONS
@@ -80,3 +83,9 @@ resulting files show
 TO RUN
 ./AMECovDock_ADFR.sh
 =================
+
+=================
+References
+
+1. Zhao, Y., Stoffler, D., & Sanner, M. (2006). Hierarchical and multi-resolution representation of protein flexibility. Bioinformatics, 22(22), 2768-2774.
+2. Ravindranath, P. A., Forli, S., Goodsell, D. S., Olson, A. J., & Sanner, M. F. (2015). AutoDockFR: advances in protein-ligand docking with explicitly specified binding site flexibility. PLoS computational biology, 11(12), e1004586.
