@@ -1,4 +1,4 @@
-**AMECovDock - Automated Modeling Engine for covelent docking using ADFR**
+**AMECovDock - Automated Modeling Engine for COVelent DOCKing**
 
 This package holds everything needed to automate ADFR
 
