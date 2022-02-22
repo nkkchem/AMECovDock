@@ -7,7 +7,7 @@ In a covalently bound ligand, there are three atoms shared between the receptor 
 For with a receptor using  ADFR [1-2]  follows https://ccsb.scripps.edu/adfr/tutorial-covalent/
 
 ===============
-CURRENTLY SUPPORTED WARHEAD REACTIONS
+**CURRENTLY SUPPORTED WARHEAD REACTIONS**
 ===============
 acrylamides
 alkynes
@@ -20,7 +20,7 @@ vinylmethyl ethers
 vinylsulfones
 
 ==============
-OUTPUT
+**OUTPUT**
 ==============
 ./Res_Dock/
     for ease of comparison and visualization of results
@@ -40,7 +40,7 @@ OUTPUT
     .pdbqt  - result of adfr prepare_ligand
 
 ===============
-ENVIRONMENT - Constance
+**ENVIRONMENT** - Constance
 ===============
 module load python/anaconda3.2019.3
 source /share/apps/python/anaconda3.2019.3/etc/profile.d/conda.sh
