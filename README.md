@@ -7,7 +7,7 @@ In a covalently bound ligand, there are three atoms shared between the receptor 
 For with a receptor using  ADFR [1-2]  follows https://ccsb.scripps.edu/adfr/tutorial-covalent/
 
 ===============
-**CURRENTLY SUPPORTED WARHEAD REACTIONS**
+**Currently Supported Warhead Reactions**
 ===============
 acrylamides
 alkynes
