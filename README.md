@@ -4,8 +4,7 @@
 This pipeline contains all the components needed to automate covalent docking of specified electrophilic warheads to a receptor CYS sidechain of the protein target. Given a protein target and a list of SMILES, the pipeline forms a covalent bond between the thiol of the CYS sidechain and the pertinent functional group(s) of a ligand, and then determines the energetically favorable poses of the ligand!
 
 
-
-In a covalently bound ligand, there are three atoms shared between the receptor and the ligand. It includes a common anchor atom in the receptor that connects with the ligand’s atoms. You can see both connected atoms in the PDBQT files of both the receptor and the ligand as well. This package holds everything needed to automate AutoDockFR (ADFR) [1-2]  follows https://ccsb.scripps.edu/adfr/tutorial-covalent/
+In a covalently bound ligand, there are three atoms shared between the receptor and the ligand. It includes a common anchor atom in the receptor that connects with the ligand’s atoms. You can see both connected atoms in the PDBQT files of both the receptor and the ligand as well. This package holds everything needed to automate AutoDockFR (ADFR) [1-2] . For receceptor preparation follow the tutorial https://ccsb.scripps.edu/adfr/tutorial-covalent/. 
 
 
 **Currently Supported Warhead Reactions**
