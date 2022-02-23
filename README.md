@@ -1,10 +1,11 @@
 
 **AMECovDock - Automated Modeling Engine for COVelent DOCKing**
 
-This pipeline contains all the components needed to automate covalent docking of specified electrophilic warheads to a receptor CYS sidechain of the protein target. Given a protein target and a list of SMILES, the pipeline forms a covalent bond between the thiol of the CYS sidechain and the pertinent functional group(s) of a ligand, and then determines the energetically favorable poses of the ligand!
+This pipeline contains all the components needed to automate covalent docking of specified electrophilic warheads to a receptor CYS sidechain of the protein target. Given a protein target and a list of SMILES, the pipeline forms a covalent bond between the thiol of the CYS sidechain and the pertinent functional group(s) of a ligand, and then determines the energetically favorable poses of the ligand! 
 
 
-In a covalently bound ligand, there are three atoms shared between the receptor and the ligand. It includes a common anchor atom in the receptor that connects with the ligand’s atoms. You can see both connected atoms in the PDBQT files of both the receptor and the ligand as well. This package holds everything needed to automate AutoDockFR (ADFR) [1-2] . For receceptor preparation follow the tutorial https://ccsb.scripps.edu/adfr/tutorial-covalent/. 
+In a covalently bound ligand, there are three atoms shared between the receptor and the ligand. It includes a common anchor atom in the receptor that connects with the ligand’s atoms. You can see both connected atoms in the PDBQT files of both the receptor and the ligand as well. This package holds everything needed to automate AutoDockFR (ADFR) [1-2].  For receceptor preparation follow the tutorial https://ccsb.scripps.edu/adfr/tutorial-covalent/. ]
+We have curated covalent antiviral data sets with desired scaffold using 3D-Scaffld deep learning framework https://github.com/PNNL-CompBio/3D_Scaffold [3].
 
 
 **Currently Supported Warhead Reactions**
@@ -97,3 +98,5 @@ resulting files show
 
 1. Zhao, Y., Stoffler, D., & Sanner, M. (2006). Hierarchical and multi-resolution representation of protein flexibility. Bioinformatics, 22(22), 2768-2774.
 2. Ravindranath, P. A., Forli, S., Goodsell, D. S., Olson, A. J., & Sanner, M. F. (2015). AutoDockFR: advances in protein-ligand docking with explicitly specified binding site flexibility. PLoS computational biology, 11(12), e1004586.
+3. 1.	Joshi R, Gebauer N, Bontha M, Khazaieli M, James RM, Brown JB, Kumar N*. 3D-Scaffold: A Deep Learning Framework to Generate 3D Coordinates of Antiviral Candidates with Desired Scaffolds. Phys Chem B. 2021. doi: 10.1021/acs.jpcb.1c06437. 
+
