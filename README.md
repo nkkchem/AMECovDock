@@ -11,8 +11,8 @@ For with a receptor using  ADFR [1-2]  follows https://ccsb.scripps.edu/adfr/tut
 
 **Currently Supported Warhead Reactions**
 
-acrylamides
-alkynes
+*acrylamides*
+*alkynes*
 chloroacetamides
 epoxyKetone_alphaSub
 epoxyKetone_betaSub
