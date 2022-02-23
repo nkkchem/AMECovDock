@@ -1,4 +1,6 @@
+==============
 **AMECovDock - Automated Modeling Engine for COVelent DOCKing**
+==============
 
 This package holds everything needed to automate ADFR
 
@@ -19,9 +21,9 @@ haloKetone_SN2
 vinylmethyl ethers
 vinylsulfones
 
-==============
+
 **OUTPUT**
-==============
+
 ./Res_Dock/
     for ease of comparison and visualization of results
     receptorName_ligandName_reactionName_counter_jobName_out.pdbqt - the docked ligand
@@ -39,26 +41,25 @@ vinylsulfones
     .pdb    - result of AMECovDock_Reactions.py
     .pdbqt  - result of adfr prepare_ligand
 
-===============
 **ENVIRONMENT** - Constance
-===============
+
 module load python/anaconda3.2019.3
 source /share/apps/python/anaconda3.2019.3/etc/profile.d/conda.sh
 conda activate my-rdkit-env
 module load gcc/6.1.0
 module load openbabel/2.4.1
 
-===============
-DEPENDENCIES
-===============
+
+**DEPENDENCIES**
+
 ADFR - http://adfr.scripps.edu/AutoDockFR/downloads.html
 anaconda
 rdkit - https://www.rdkit.org/docs/Install.html
 gcc - used on Constance for compatibility with slurm
 
-==============
-NOTES - SETUP
-==============
+
+**NOTES - SETUP**
+
 only 2 files need to be provided
   {ligand_file}.smi
     2 columns, no header: SMILES ID
@@ -79,13 +80,14 @@ resulting files show
     reactionName - for easily identifying which warhead reacted with the receptor, may also be used to filter results according to interest
     counter      - when a reaction produces multiple unique products, the counter prevents them from overwriting
 
-=================
-TO RUN
-./AMECovDock_ADFR.sh
-=================
 
-=================
-References
+**TO RUN**
+
+./AMECovDock_ADFR.sh
+
+
+
+**References**
 
 1. Zhao, Y., Stoffler, D., & Sanner, M. (2006). Hierarchical and multi-resolution representation of protein flexibility. Bioinformatics, 22(22), 2768-2774.
 2. Ravindranath, P. A., Forli, S., Goodsell, D. S., Olson, A. J., & Sanner, M. F. (2015). AutoDockFR: advances in protein-ligand docking with explicitly specified binding site flexibility. PLoS computational biology, 11(12), e1004586.
