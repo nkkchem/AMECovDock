@@ -98,5 +98,5 @@ resulting files show
 
 1. Zhao, Y., Stoffler, D., & Sanner, M. (2006). Hierarchical and multi-resolution representation of protein flexibility. Bioinformatics, 22(22), 2768-2774.
 2. Ravindranath, P. A., Forli, S., Goodsell, D. S., Olson, A. J., & Sanner, M. F. (2015). AutoDockFR: advances in protein-ligand docking with explicitly specified binding site flexibility. PLoS computational biology, 11(12), e1004586.
-3. 1.	Joshi R, Gebauer N, Bontha M, Khazaieli M, James RM, Brown JB, Kumar N*. 3D-Scaffold: A Deep Learning Framework to Generate 3D Coordinates of Antiviral Candidates with Desired Scaffolds. Phys Chem B. 2021. doi: 10.1021/acs.jpcb.1c06437. 
+3. Joshi R, Gebauer N, Bontha M, Khazaieli M, James RM, Brown JB, Kumar N*. 3D-Scaffold: A Deep Learning Framework to Generate 3D Coordinates of Antiviral Candidates with Desired Scaffolds. Phys Chem B. 2021. doi: 10.1021/acs.jpcb.1c06437. 
 
