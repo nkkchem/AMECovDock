@@ -1,5 +1,5 @@
 
-***_AMECovDock - Automated Modeling Engine for COVelent DOCKing_***
+**AMECovDock - Automated Modeling Engine for COVelent DOCKing**
 
 This pipeline contains all the components needed to automate covalent docking of specified electrophilic warheads to a receptor CYS sidechain of the protein target. Given a protein target and a list of SMILES, the pipeline forms a covalent bond between the thiol of the CYS sidechain and the pertinent functional group(s) of a ligand, and then determines the energetically favorable poses of the ligand!
 
